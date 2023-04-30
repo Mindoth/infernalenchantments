@@ -131,7 +131,6 @@ public class CommonEvents {
                     //Mainhand
                     if ( EnchantmentHelper.getEnchantmentLevel(RegistryEnchantments.RIP_AND_REPAIR.get(), pAttacker.getItemStackFromSlot(EquipmentSlotType.MAINHAND)) > 0 ) {
                         double rand = Math.random();
-                        System.out.println(rand);
                         if ( pAttacker.getItemStackFromSlot(EquipmentSlotType.MAINHAND).getDamage() > 0 ) {
                             if ( rand > (1.0f - ((float)EnchantmentHelper.getEnchantmentLevel(RegistryEnchantments.RIP_AND_REPAIR.get(), pAttacker.getItemStackFromSlot(EquipmentSlotType.MAINHAND)) * 0.15f) ) ) {
                                 pAttacker.getItemStackFromSlot(EquipmentSlotType.MAINHAND).setDamage(pAttacker.getItemStackFromSlot(EquipmentSlotType.MAINHAND).getDamage() - EnchantmentHelper.getEnchantmentLevel(RegistryEnchantments.RIP_AND_REPAIR.get(), pAttacker.getItemStackFromSlot(EquipmentSlotType.MAINHAND)));
@@ -141,7 +140,6 @@ public class CommonEvents {
                     //Offhand
                     if ( EnchantmentHelper.getEnchantmentLevel(RegistryEnchantments.RIP_AND_REPAIR.get(), pAttacker.getItemStackFromSlot(EquipmentSlotType.OFFHAND)) > 0 ) {
                         double rand = Math.random();
-                        System.out.println(rand);
                         if ( pAttacker.getItemStackFromSlot(EquipmentSlotType.OFFHAND).getDamage() > 0 ) {
                             if ( rand > (1.0f - ((float)EnchantmentHelper.getEnchantmentLevel(RegistryEnchantments.RIP_AND_REPAIR.get(), pAttacker.getItemStackFromSlot(EquipmentSlotType.OFFHAND)) * 0.15f) ) ) {
                                 pAttacker.getItemStackFromSlot(EquipmentSlotType.OFFHAND).setDamage(pAttacker.getItemStackFromSlot(EquipmentSlotType.OFFHAND).getDamage() - EnchantmentHelper.getEnchantmentLevel(RegistryEnchantments.RIP_AND_REPAIR.get(), pAttacker.getItemStackFromSlot(EquipmentSlotType.OFFHAND)));
@@ -151,7 +149,6 @@ public class CommonEvents {
                     //Helmet
                     if ( EnchantmentHelper.getEnchantmentLevel(RegistryEnchantments.RIP_AND_REPAIR.get(), pAttacker.getItemStackFromSlot(EquipmentSlotType.HEAD)) > 0 ) {
                         double rand = Math.random();
-                        System.out.println(rand);
                         if ( pAttacker.getItemStackFromSlot(EquipmentSlotType.HEAD).getDamage() > 0 ) {
                             if ( rand > (1.0f - ((float)EnchantmentHelper.getEnchantmentLevel(RegistryEnchantments.RIP_AND_REPAIR.get(), pAttacker.getItemStackFromSlot(EquipmentSlotType.HEAD)) * 0.15f) ) ) {
                                 pAttacker.getItemStackFromSlot(EquipmentSlotType.HEAD).setDamage(pAttacker.getItemStackFromSlot(EquipmentSlotType.HEAD).getDamage() - EnchantmentHelper.getEnchantmentLevel(RegistryEnchantments.RIP_AND_REPAIR.get(), pAttacker.getItemStackFromSlot(EquipmentSlotType.HEAD)));
@@ -161,7 +158,6 @@ public class CommonEvents {
                     //Chestplate
                     if ( EnchantmentHelper.getEnchantmentLevel(RegistryEnchantments.RIP_AND_REPAIR.get(), pAttacker.getItemStackFromSlot(EquipmentSlotType.CHEST)) > 0 ) {
                         double rand = Math.random();
-                        System.out.println(rand);
                         if ( pAttacker.getItemStackFromSlot(EquipmentSlotType.CHEST).getDamage() > 0 ) {
                             if ( rand > (1.0f - ((float)EnchantmentHelper.getEnchantmentLevel(RegistryEnchantments.RIP_AND_REPAIR.get(), pAttacker.getItemStackFromSlot(EquipmentSlotType.CHEST)) * 0.15f) ) ) {
                                 pAttacker.getItemStackFromSlot(EquipmentSlotType.CHEST).setDamage(pAttacker.getItemStackFromSlot(EquipmentSlotType.CHEST).getDamage() - EnchantmentHelper.getEnchantmentLevel(RegistryEnchantments.RIP_AND_REPAIR.get(), pAttacker.getItemStackFromSlot(EquipmentSlotType.CHEST)));
@@ -180,7 +176,6 @@ public class CommonEvents {
                     //Boots
                     if ( EnchantmentHelper.getEnchantmentLevel(RegistryEnchantments.RIP_AND_REPAIR.get(), pAttacker.getItemStackFromSlot(EquipmentSlotType.FEET)) > 0 ) {
                         double rand = Math.random();
-                        System.out.println(rand);
                         if ( pAttacker.getItemStackFromSlot(EquipmentSlotType.FEET).getDamage() > 0 ) {
                             if ( rand > (1.0f - ((float)EnchantmentHelper.getEnchantmentLevel(RegistryEnchantments.RIP_AND_REPAIR.get(), pAttacker.getItemStackFromSlot(EquipmentSlotType.FEET)) * 0.15f) ) ) {
                                 pAttacker.getItemStackFromSlot(EquipmentSlotType.FEET).setDamage(pAttacker.getItemStackFromSlot(EquipmentSlotType.FEET).getDamage() - EnchantmentHelper.getEnchantmentLevel(RegistryEnchantments.RIP_AND_REPAIR.get(), pAttacker.getItemStackFromSlot(EquipmentSlotType.FEET)));
